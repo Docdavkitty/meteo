@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Météo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Ma Météo</h1>
+
+  <div class="controls">
+    <button onclick="getLocationWeather()">📍 Ma position</button>
+    <input type="text" id="cityInput" placeholder="Entrez une ville" />
+    <button onclick="getCityWeather()">🔍 Rechercher</button>
+  </div>
+
+  <div id="weather"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
